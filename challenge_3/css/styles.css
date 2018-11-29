@@ -1,0 +1,39 @@
+.center {
+    position:absolute;
+    width:780px;
+    height:650px;
+    left:50%;
+    top:50%;
+    margin-left:-390px;
+    margin-top:-325px;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    letter-spacing: .05937rem;
+}
+
+hr {
+    margin-right: 35px;
+    margin-left: 40px;
+    
+
+}
+
+.marg1 {
+    font-size: 15px;
+    margin: 30px 35px 30px 40px;
+}
+
+p {
+    font-family: Helvetica;
+    margin-right: 35px;
+    margin-left: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #22458f;
+}
