@@ -13,16 +13,16 @@
             <!-- User id label -->
                 <p>
                     <tr>
-                        <td><label>User id: </label></td>
-                        <td><input type="text" minlength="5" maxlength="12" required></td>
+                        <td style="text-align: right"><label>User id: </label></td>
+                        <td><input type="text" style="margin-left: 5px" minlength="5" maxlength="12" required></td>
                     </tr>
                 </p> 
 
             <!-- Password label    -->
                 <p>
                     <tr>
-                        <td><label>Password: </label></td>
-                        <td><input type="password" required minlength="7" maxlength="12"></td>  
+                        <td style="text-align: right"><label>Password: </label></td>
+                        <td><input type="password" style="margin-left: 5px" required minlength="7" maxlength="12"></td>  
                     </tr>
                 </p>    
             
@@ -30,16 +30,16 @@
             <!-- Name label -->
                 <p>
                     <tr>
-                        <td> <label>Name: </label></td>
-                        <td><input type="text" pattern="[a-zA-Z]+" required></td>
+                        <td style="text-align: right"> <label>Name: </label></td>
+                        <td><input type="text" pattern="[a-zA-Z]+" style="margin-left: 5px" required></td>
                     </tr>
                 </p> 
 
             <!-- Address label -->
                 <p>
                     <tr>
-                        <td><label>Address: </label></td>
-                        <td><input type="email" placeholder="optional"></td>
+                        <td style="text-align: right"><label>Address: </label></td>
+                        <td><input type="email" placeholder="optional" style="margin-left: 5px"></td>
                     </tr>
                 </p> 
 
@@ -47,9 +47,9 @@
             <!-- Country  label -->
                 <p>
                     <tr>
-                        <td><label>Country: </label></td>
+                        <td style="text-align: right"><label>Country: </label></td>
                         <td>
-                        <select>
+                        <select style="margin-left: 5px">
                                 <option value="">(Please select a country)</option>
                                 <option value="Afganistan">Afghanistan</option>
                                 <option value="Albania">Albania</option>
@@ -306,26 +306,26 @@
                 <!-- Zip Code label -->
                 <p>
                     <tr>
-                        <td><label>Zip Code: </label></td>
-                        <td><input type="text" pattern="[0-9]" required></td>
+                        <td style="text-align: right"><label>Zip Code: </label></td>
+                        <td><input type="text" pattern="[0-9]" style="margin-left: 5px" required></td>
                     </tr>          
                 </p> 
 
                 <!-- Email label -->
                 <p>
                     <tr>
-                        <td><label for="email address">Email: </label></td>
-                        <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required></td>
+                        <td style="text-align: right"><label for="email address">Email: </label></td>
+                        <td><input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" style="margin-left: 5px" required></td>
                     </tr>       
                 </p> 
 
                 <!-- Sex label -->
                 <p>
                     <tr>
-                        <td><label for="email address">Sex: </label></td>
+                        <td style="text-align: right"><label for="email address">Sex: </label></td>
                         <td>
                             <input type="radio" value="male" name="gender">Male
-                            <input type="radio" value="female" name="gender">Female
+                            <input type="radio" style="margin-left: 1px" value="female" name="gender">Female
                         </td>
                     </tr>       
                 </p>
@@ -333,7 +333,7 @@
                 <!-- Language label -->
                 <p>
                     <tr>
-                        <td><label required>Language: </label></td>
+                        <td style="text-align: right"><label required>Language: </label></td>
                         <td>
                             <input type="checkbox" value="english" name="language"/>English
                             <input type="checkbox" value="non-english" name="language">Non-English
@@ -344,19 +344,22 @@
                 <!-- About label -->
                 <p>
                     <tr>
-                        <td><label>About: </label></td>
-                        <td><textarea cols="30" rows="10"></textarea></td>
+                        <td style="text-align: right; vertical-align: text-top"><label>About: </label></td>
+                        <td><textarea cols="30" rows="10" style="margin-left: 5px"></textarea></td>
                     </tr>
                 </p> 
 
                 <!-- Submit button -->
                 <p>
-                    <tr>
-                        <td><button type="button">Submit</button></td>  
+                    <tr>  
+                        <td></td>                   
+                        <td><center><button type="button" style="font-weight: bold;">Submit</button></center></td>
+                        <td></td>
                     </tr>     
                 </p>    
             </form>
         </table>
+        
 
 </body>
 </html>
