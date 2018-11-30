@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffee Shop Survey</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Online Survey</h1>
+        <table>
+            <form>
+                <p>
+                    <tr>
+                        <td><label>Name: </label></td>
+                        <td><input type="text"></td>
+                    </tr>
+                </p>    
+
+                <p>
+                    <tr>
+                        <td><label>Contact Details: </label></td>
+                        <td><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></td>
+                    </tr>  
+                </p>    
+
+                <p>
+
+                    <tr>
+                        <td><label>Gender: </label></td>
+                        <td> 
+                            <select>
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                                <option value="">Prefer not to say</option>
+                            </select>
+                        </td>    
+                    </tr> 
+                </p>    
+    
+                <p>
+
+                    <tr>
+                        <td><label>Date of Birth: </label></td>
+                        <td><input type="date"></td>
+                    </tr>  
+                </p>
+            
+                <p>
+
+                    <tr>
+                        <td><label>Password: </label></td>
+                        <td><input type="password"></td>
+                    </tr>  
+                </p> 
+        </table>        
+
+        <h2 style="text-decoration: underline">Questions</h2> 
+            
+            <p>
+                <label>How often do you visit coffee shops?</label>
+            </p>
+
+            <p>
+                <select>
+                    <option value="">Never</option>
+                    <option value="">1-2 times a week</option>
+                    <option value="">3-4 times a week</option>
+                    <option value="">5-6 times a week</option>   
+                    <option value="">Everyday</option> 
+                </select>
+            </p>
+
+            <p style="margin-top: 30px">
+                <label for="">What is your favorite coffee shop? Where is it located?</label>
+            </p>
+
+            <p>
+                <input type="text">
+            </p>
+
+            <p style="margin-top: 30px">
+                <label for="">What do you typically order to drink?</label>
+            </p>
+
+            <p>
+                <input type="checkbox">Cappacinno
+                <input type="checkbox">Macchiato
+                <input type="checkbox">Latte
+                <input type="checkbox">Black
+                <input type="checkbox">Iced
+                <input type="checkbox">Chai
+                <input type="checkbox">Milkshake
+                <input type="checkbox">Flat White
+                <input type="checkbox">Water
+            </p>
+            
+            <p style="margin-top: 30px">
+                <label for="">What kind of coffee shops do you prefer?</label>
+            </p>
+
+            <p>
+                <input type="radio">Large, national chain coffee shops
+            </p>
+
+            <p>
+                <input type="radio">Small, privately owned coffee shops
+            </p>
+    </form>
+
+            <p style="margin-top: 70px">
+                <label >Comments:</label>
+            </p>
+
+            <p>
+                <textarea name="" id="" cols="80" rows="15"></textarea>
+            </p>
+
+            <!-- Submit button    -->
+            <a href=""><button>Submit</button></a>
+            
+            <!-- Reset button -->
+            <a href="">
+                <input type="reset">
+            </a>
+</body>
+</html>
